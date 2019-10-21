@@ -3,4 +3,4 @@ project(CodeGolf)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CodeGolf 1072018.cpp)
+add_executable(CodeGolf 20181007.cpp)
