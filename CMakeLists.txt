@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.12)
+cmake_minimum_required(VERSION 2.12)
 project(CodeGolf)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 16)
 
-add_executable(CodeGolf 20181007.cpp)
+add_executable(CodeGolf 20200121.cpp)
