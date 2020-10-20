@@ -19,9 +19,9 @@ Valid Languages: Anything I can compile or run easily enough. Viable options are
 Deadline & Submission: Next Week Friday @ 6 PM CST, 2020/10/23. Submission through a GitHub link is preferred, but will accept pastebins, source file uploads, and messsages with the code properly formatted in a code block
 '''
 
-f = open("20201019.csv")  # not counted
+f = open("20201019.csv").readlines()  # not counted
 n=[]
-for i in f.readlines():
+for i in f:
  z=list(map(int,list(filter(None,i.strip().split(",")))));m=0;u=len(z)
  for j in range(u**2,0,-1):
   if u==1:break
