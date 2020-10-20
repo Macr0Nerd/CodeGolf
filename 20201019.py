@@ -25,9 +25,8 @@ for i in f.readlines():
  z=list(map(int,list(filter(None,i.strip().split(",")))));m=0;u=len(z)
  for j in range(u**2,0,-1):
   if u==1:break
-  m=0 if m==u-1else m
-  if z[m]>z[m+1]:
-   z.insert(m+1,z.pop(m))
+  m=0if m==u-1else m
+  if z[m]>z[m+1]:z.insert(m+1,z.pop(m))
   m+=1
  n.append(z)
 print(n)  # not counted
