@@ -7,7 +7,7 @@ Rules:
  * Input and output IS NOT counted for your character counts.
  * Class implementation IS NOT counted
  * Function implementation IS counted
- * Import statenents ARE NOT counted (within reason; don't import your logic)
+ * Import statements ARE NOT counted (within reason; don't import your logic)
  * Whitespace IS counted
  * No using built in sorting algorithms
  * You can expect the CSV file to contain only integers, but may have irregular whitespacing you need to take care of.
