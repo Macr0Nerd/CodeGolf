@@ -22,10 +22,10 @@ Deadline & Submission: Next Week Friday @ 6 PM CST, 2020/10/23. Submission throu
 f = open("20201019.csv")  # not counted
 n=[]
 for i in f.readlines():
- z=list(map(int,list(filter(None,i.strip().split(",")))));m=0
- for j in range(len(z)**2,0,-1):
-  if len(z)==1:break
-  m=0 if m==len(z)-1else m
+ z=list(map(int,list(filter(None,i.strip().split(",")))));m=0;u=len(z)
+ for j in range(u**2,0,-1):
+  if u==1:break
+  m=0 if m==u-1else m
   if z[m]>z[m+1]:
    z.insert(m+1,z.pop(m))
   m+=1
