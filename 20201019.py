@@ -28,5 +28,5 @@ for i in f:
   m=0if m==u-1else m
   if z[m]>z[m+1]:z.insert(m+1,z.pop(m))
   m+=1
- n.append(z)
+ n+=[z]
 print(n)  # not counted
